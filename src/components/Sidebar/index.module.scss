@@ -1,0 +1,119 @@
+.Sidebar{
+	position:absolute;
+	top:60px;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.1);
+	z-index: 10;
+	.Sidebar_left{
+		width:40%;
+		height:700px;
+		background:white;
+		float:left;
+		.Sidebar_left_login{
+			height:200px;
+			.hideClick{
+				width:60px;
+				height:65px;
+				background: #e18289;
+					position:absolute;
+					left:0;
+					top:-65px;
+					font-size:60px;
+					color:white;
+					line-height: 65px;
+
+				}
+			.Sidebar_left_login_img{
+				width:98px;
+				height:98px;
+				border-radius: 98px;
+				background: #dcdcdc;
+				margin:10px auto;
+				span{
+				line-height: 60px;
+				color:#000;
+				}
+			}			
+		}
+
+		
+
+		
+
+	}
+
+	.myactive{
+	color:#c30413;
+}
+	
+}
+
+.showUl{
+ul{
+	width:100%;
+	
+	li{
+		height:57px;
+		color:#000;
+		font-size:16px;
+		border-top:1px #dbdbdb solid;
+		text-align: left;
+		text-indent: 18px;
+		a{
+			text-decoration: none;
+			color:#000;
+			line-height: 57px;
+			text-align: left;
+			border-left:#c30413 solid 4px;
+			text-indent: 1px;
+			padding-left:10px;
+			
+
+		}
+
+
+	}
+}
+
+}
+.Sidebar_left_bottom{
+	font-size:18px;
+	height:55px;
+	text-decoration: none;
+	line-height: 55px;
+	border-top:1px #dbdbdb solid;
+	border-bottom:1px #dbdbdb solid;
+	color:red;
+	a{
+		span{
+			color:red;
+		}
+	}
+}
+.hide{
+	display: none;
+}
+
+
+
+
+// 动画
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
